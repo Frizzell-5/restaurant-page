@@ -1,0 +1,246 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Edu+TAS+Beginner:wght@500&family=Macondo&family=Permanent+Marker&family=Smooch&family=Titan+One&display=swap');
+body {
+    background-image: url('https://hips.hearstapps.com/delish/assets/17/36/1504715566-delish-fettuccine-alfredo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: auto;
+    color: white;
+    width:auto
+}
+
+
+
+img {
+    border-radius: 40%;
+    width: 350px;
+    opacity: none;
+    height: 350px;
+}
+
+.main-page {
+    width: 55%;
+    height: 600px;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 70px;
+    color: rgb(245, 245, 245);
+    background-color:black;
+    opacity: 0.8;
+    border-radius: 100px;
+}
+
+h1 {
+    font-family: Titan One, cursive;
+    animation: flicker 2s infinite alternate;   
+    font-size: 2.2em;
+}
+
+@keyframes flicker {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+       
+        0 0 10px rgb(229, 170, 81),
+        0 0 10px rgb(229, 202, 81),
+        0 0 10px rgb(229, 202, 81),
+        0 0 50px rgb(229, 202, 81),
+        0 0 150px rgb(190, 219, 209);
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+  }
+
+h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Edu QLD Beginner, cursive;
+
+}
+p{
+    font-size: 30px;
+    font-weight: bold;
+    animation: pulsate 1.5s infinite alternate;     
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282626;
+    color: white;
+    height: 300px;
+    font-size: 30px;
+    font-weight: bold;
+    flex-direction: column ;
+    opacity: 0.9;
+    
+}
+button {
+    background-color: inherit;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+button:hover {
+    color: black;
+    
+}
+
+.text {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.new-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #111010;
+    opacity: 0.9;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color:blanchedalmond;
+    width: 60%;
+    margin-top: 20px;
+    background-color: #111010;
+    opacity: 0.7;
+    text-align:top;
+    border-radius: 15px;
+    height: 700px;
+    /* center it */
+    margin: auto;
+    position: relative;
+    top: 20px
+
+}
+
+.right-side li {
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(241, 168, 33);
+    transition: transform 0.2s;
+    
+}
+
+.right-side li:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+.left-side li:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+.left-side h3 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.left-side li {
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(241, 168, 33);
+    transition: transform 0.2s;
+}
+
+
+
+.right-side h3 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color:blanchedalmond;
+    width: 60%;
+    margin-top: 40px;
+    align-items: center;
+    margin:auto;
+    background-color: #111010;
+    opacity: 0.7;
+    text-align:top;
+    border-radius: 15px;
+    position: relative;
+    top: 40px;
+    height: 700px;
+
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    width: 70%;
+    background-color: #000000;
+    opacity: 0.7;
+    text-align:top;
+    border-radius: 15px;
+    height: 700px;
+    /* center it */
+    margin: auto;
+    
+
+}
+    
